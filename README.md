@@ -22,3 +22,5 @@
 解码
 
 	./amrnb-dec out.amr out.wav
+
+`test`目录下为静态库编译链接方式测试程序 
