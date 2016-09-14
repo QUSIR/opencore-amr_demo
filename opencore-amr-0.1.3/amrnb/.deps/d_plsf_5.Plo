@@ -1,0 +1,116 @@
+d_plsf_5.lo d_plsf_5.o:  \
+ ../opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_plsf_5.cpp \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/d_plsf.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h \
+  ../oscl/oscl_base_macros.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gsm_amr_typedefs.h \
+  ../oscl/oscl_base.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdint.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/features.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_config.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_arch_features.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/sys/cdefs.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wchar.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wordsize.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mode.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/get_const_tbls.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basic_op.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basicop_malloc.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basic_op_c_equivalent.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/add.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/div_s.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_shr_r.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mult_r.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/norm_l.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/norm_s.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/round.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/shr_r.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/sub.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/shr.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_negate.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_extract.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp_lsf.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/reorder.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h \
+  ../oscl/oscl_mem.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdlib.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stddef.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/string.h
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/d_plsf.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h:
+
+../oscl/oscl_base_macros.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gsm_amr_typedefs.h:
+
+../oscl/oscl_base.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdint.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/features.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_config.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_arch_features.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wchar.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wordsize.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mode.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/get_const_tbls.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basic_op.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basicop_malloc.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basic_op_c_equivalent.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/add.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/div_s.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_shr_r.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mult_r.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/norm_l.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/norm_s.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/round.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/shr_r.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/sub.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/shr.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_negate.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_extract.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp_lsf.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/reorder.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h:
+
+../oscl/oscl_mem.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdlib.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stddef.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/string.h:

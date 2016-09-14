@@ -1,0 +1,155 @@
+cod_amr.lo cod_amr.o:  \
+ ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cod_amr.cpp \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cod_amr.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h \
+  ../oscl/oscl_base_macros.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gsm_amr_typedefs.h \
+  ../oscl/oscl_base.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdint.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/features.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_config.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_arch_features.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/sys/cdefs.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wchar.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wordsize.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mode.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lpc.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/levinson.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/get_const_tbls.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/q_plsf.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mode.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cl_ltp.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_fr.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ton_stab.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gain_q.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gc_pred.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_adapt.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/p_ol_wgh.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/vad.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad1.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst_vad.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad2.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/vad.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/dtx_enc.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/q_plsf.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/dtx_common_def.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/qua_gain.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gc_pred.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/get_const_tbls.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_big.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ol_ltp.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spreproc.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/pred_lt.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spstproc.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cbsearch.h \
+  ../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/convolve.h \
+  ../oscl/oscl_mem.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdlib.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stddef.h \
+  /usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/string.h
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cod_amr.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h:
+
+../oscl/oscl_base_macros.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gsm_amr_typedefs.h:
+
+../oscl/oscl_base.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdint.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/features.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_config.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/uClibc_arch_features.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wchar.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/bits/wordsize.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mode.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lpc.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/levinson.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/get_const_tbls.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/q_plsf.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mode.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cl_ltp.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_fr.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ton_stab.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gain_q.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gc_pred.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_adapt.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/p_ol_wgh.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/vad.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad1.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst_vad.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad2.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/vad.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/dtx_enc.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/q_plsf.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/dtx_common_def.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/qua_gain.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gc_pred.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/get_const_tbls.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_big.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ol_ltp.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spreproc.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/pred_lt.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spstproc.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cbsearch.h:
+
+../opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/convolve.h:
+
+../oscl/oscl_mem.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/stdlib.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stddef.h:
+
+/usr/local/arm_linux_4.2/lib/gcc/arm-none-linux-gnueabi/4.2.1/../../../../arm-none-linux-gnueabi/include/string.h:
